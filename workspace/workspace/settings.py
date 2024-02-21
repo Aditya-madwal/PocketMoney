@@ -25,8 +25,7 @@ SECRET_KEY = 'django-insecure-fq)jxfk71^4=tl7w$0ukfw%=p&c1trp6*gpyi&v=3!uve2um=p
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
-
+ALLOWED_HOSTS = ['127.0.0.1', '.vercel.app']
 
 # Application definition
 
@@ -55,7 +54,7 @@ ROOT_URLCONF = 'workspace.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [BASE_DIR, "templates"],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -68,8 +67,8 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'workspace.wsgi.application'
-
+# WSGI_APPLICATION = 'workspace.wsgi.application'
+WSGI_APPLICATION = 'workspace.wsgi.app'
 
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
