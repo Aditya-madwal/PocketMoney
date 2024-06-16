@@ -2,8 +2,8 @@
 PocketMoney is a budget tracker web application built with Django, Python, and Tailwind CSS. It provides a user-friendly interface for managing multiple wallets, tracking transactions, and maintaining a record of your expenses.
 
 ## Snapshots
-![Screenshot1](/images/img2.png)
-![Screenshot2](/images/img1.png)
+![Screenshot1](/images_for_readme/img2.png)
+![Screenshot2](/images_for_readme/img1.png)
 
 ## Features
 - Tailwind CSS: Beautiful and responsive design using Tailwind CSS.
